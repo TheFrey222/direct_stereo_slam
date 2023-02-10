@@ -39,7 +39,7 @@ link_directories(${PCL_LIBRARY_DIRS})
 add_definitions(${PCL_DEFINITIONS})
 
 if (NOT DSO_PATH)
-    set(DSO_PATH ~/packages/dso)
+    set(DSO_PATH /code/src/direct_stereo_slam/dso)
 endif()
 set(DSO_INCLUDE_DIRS "${DSO_PATH}/src" "${DSO_PATH}/thirdparty/Sophus")
 set(DSO_LIBRARY_PATH "${DSO_PATH}/build/lib")
